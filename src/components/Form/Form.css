@@ -1,0 +1,42 @@
+.form {
+  backdrop-filter: blur(1.25rem);
+  border-radius: var(--br);
+  overflow: hidden;
+  padding: 1.875rem;
+  position: relative;
+  width: 100%;
+}
+
+.form__title {
+  background: linear-gradient(
+    to right,
+    hsl(var(--primary-color)),
+    hsl(var(--secondary-color))
+  );
+  font-size: clamp(1.375rem, 1.2775rem + 0.4459vw, 1.8125rem);
+  font-weight: var(--fw-regular);
+  text-align: center;
+
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
+}
+
+.form__title:last-of-type {
+  margin-block-start: 3.125rem;
+}
+
+.form__input-group {
+  display: flex;
+  flex-direction: column;
+  gap: 1.25rem;
+  margin-block-start: 1.875rem;
+  width: 100%;
+}
+
+@media (min-width: 36rem) {
+  .form__input-group {
+    flex-direction: row;
+  }
+}

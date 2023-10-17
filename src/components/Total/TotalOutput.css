@@ -1,0 +1,8 @@
+.form__total {
+  background-color: #262727;
+  border-radius: var(--br);
+  font-size: clamp(1.875rem, 1.6521rem + 1.0191vw, 2.875rem);
+  margin-block-start: 1.25rem;
+  padding: 1.875rem;
+  text-align: center;
+}
