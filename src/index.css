@@ -5,10 +5,10 @@
 /* -------------------------------------------------------------------------- */
 :root {
   /* Colors */
-  --primary-color: 44, 97%, 65%;
-  --secondary-color: 79, 46%, 55%;
-  --bg-color: 0, 0%, 10%;
-  --text-color: 0, 0%, 100%;
+  --primary-color: 44 97% 65%;
+  --secondary-color: 79 46% 55%;
+  --bg-color: 0 0% 10%;
+  --text-color: 0 0% 100%;
 
   /* Font Familiy */
   --heading-font: "Raleway", sans-serif;

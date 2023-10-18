@@ -7,6 +7,7 @@ import { dollarIcon, percentIcon } from "../../assets/images";
 import "./Form.css";
 import FormInput from "./FormInput";
 import TotalOutput from "../Total/TotalOutput";
+import FormButton from "./FormButton";
 
 const Form = () => {
   const [value, setValue] = useState("");
@@ -26,6 +27,7 @@ const Form = () => {
 
       <h3 className="form__title">Valor Final</h3>
       <TotalOutput value={value} percent={percent} />
+      {value && <FormButton onSetValue={setValue} onSetPercent={setPercent} />}
     </div>
   );
 };
